@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_signin"
+                android:onClick="onButtonClick"
+                android:text="@string/signin" />
+
+            <Button
+                android:id="@+id/umeng_example_analytics_signoff"
+                android:onClick="onButtonClick"
+                android:text="@string/signoff" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_event_count1"
+                android:onClick="onButtonClick"
+                android:text="@string/event_count1" />
+
+            <Button
+                android:id="@+id/umeng_example_analytics_event_count2"
+                android:onClick="onButtonClick"
+                android:text="@string/event_count2" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_event_value"
+                android:onClick="onButtonClick"
+                android:text="@string/event_value" />
+
+            <Button
+                android:id="@+id/umeng_example_analytics_event_social"
+                android:onClick="onButtonClick"
+                android:text="@string/event_social" />
+
+        </TableRow>
+
+
+        <Button
+            android:id="@+id/umeng_example_analytics_fragment_stack"
+            android:layout_width="match_parent"
+            android:onClick="onButtonClick"
+            android:text="@string/page_stack" />
+
+        <Button
+            android:id="@+id/umeng_example_analytics_fragment_tabs"
+            android:layout_width="match_parent"
+            android:onClick="onButtonClick"
+            android:text="@string/page_tabs" />
+
+        <Button
+            android:id="@+id/umeng_example_analytics_make_crash"
+            android:onClick="onButtonClick"
+            android:text="@string/make_crash" />
+
+        <Button
+            android:id="@+id/umeng_example_analytics_js_analytic"
+            android:onClick="onButtonClick"
+            android:text="@string/js_in_webview" />
+
+    </TableLayout>
+
+</LinearLayout>

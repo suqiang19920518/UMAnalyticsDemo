@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">友盟统计分析示例</string>
+    <string name="signin">用户登录</string>
+    <string name="signoff">用户退出</string>
+    <string name="page_stack">统计 Fragment 页面(Stack)</string>
+    <string name="page_tabs"> 统计 Fragment 页面( Tab )</string>
+    <string name="event_count1">统计计数事件</string>
+    <string name="event_count2">统计计数事件（带参）</string>
+    <string name="event_value">统计计算事件</string>
+    <string name="event_social">社交统计</string>
+    <string name="make_crash">程序崩溃统计</string>
+    <string name="webview_tv"><![CDATA[<string name=\"webview_tv\">在webview中调用统计分析代码</string>]]></string>
+    <string name="js_in_webview">Webview 统计</string>
+</resources>
